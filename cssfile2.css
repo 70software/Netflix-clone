@@ -1,0 +1,269 @@
+.background{
+    background-image: url("bannerimage.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 120% 120%;
+    height: 125%;
+    filter: brightness(40%);
+}
+body{
+    background-color: #000;
+}
+.foreground{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.1);
+    top: 60%;
+    left: 50%;
+    width: 49%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    text-align: center;
+    font-size: 28px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+ .inputError {
+    color: rgb(0, 255, 234);
+    text-align: left;
+    margin-bottom:  -6px;
+    padding: 1px;
+    font-size: 15px;
+}
+.readytowatch{
+    font-size: 16px;
+}
+.email{
+    background-color: white;
+    width: 614px;
+    height: 50px;
+    color: black;
+    font-size: 31;
+}
+.getstartedbutton{
+    background-color: red;
+    color: white;
+    border-style: solid;
+    border-radius: 20px;
+    height: 50px;
+    width: 200px;
+    font-size: 31;
+}
+.logo{
+    top: 5%;
+    left: 8%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    position: absolute;
+}
+.blackscreen{
+    background-color: black;
+  
+    filter: brightness(40%);
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+.signinbutton{
+    background-color: red;
+    position: absolute;
+    color: white;
+    height: 35px;
+    width: 90px;
+    font-size: 15;
+    top: 5%;
+    right: 1%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+
+}
+
+.dropdown{
+    color: white;
+    height: 35px;
+    width: 90px;
+    font-size: 15;
+    position: absolute;
+    top: 5%;
+    right: 8%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+.our-story-cards{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    background: #000;
+    align-items: center;
+    padding: 2rem 4rem;
+    border-top:8px solid #222;
+    border-bottom: 8px solid #222;
+}
+.our-story-cards .our-story-card-text{
+    flex-basis: 40%;
+}
+.our-story-cards .our-story-card-text .our-story-card-title{
+    color: #fff;
+    line-height: 1.1;
+    font-size: 3.124rem;
+    margin-bottom: 5rem;
+    letter-spacing: 2px;
+    padding: 10px;
+    text-decoration-color: white;
+}
+.our-story-cards .our-story-card-text .our-story-card-subtitle{
+    color: #fff;
+    font-weight: 400;
+    font-size: 1.625rem;
+    text-decoration-color: white;
+}
+.our-story-card-img-container{
+    flex-basis: 45%;
+
+}
+.our-story-card-animation-container{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+.our-story-card-animation{
+    width: 100%;
+    height: 100%;
+    max-width: 73%;
+    max-height: 54%;
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.our-story-card-img{
+    position: relative ;
+    z-index: 100;
+    max-width: 100%;
+    height: auto;
+}
+.our-story-card-video{
+    width: 100%;
+    height: 100%;
+}
+.downloadAndWatch .our-story-card-animation{
+    position: absolute;
+    left: 50%;
+    bottom: 8%;
+    top: 283px;
+    transform: translate(-50%);
+    margin: 0 auto;
+    background: #000;
+    display: flex;
+    align-items: center;
+    width: 60%;
+    height: 96px;
+    min-width: 15em;
+    padding: .25em 0.65em;
+    border-radius: 0.75em;
+    border: 2px solid rgba(255,255,255,0.25);
+    box-shadow: 0 0 2em 0 #000;
+
+}
+.downloadAndWatch .our-story-card-animation-container{
+    position: relative;
+    overflow: hidden;
+}
+.our-story-card-animation-image{
+    height: 4.5em;
+    width: 4.5em;
+    margin-right: 1rem;
+}
+.our-story-card-img1{
+    position: relative ;
+    /* z-index: 100; */
+    /* max-width: 100%; */
+    height: auto;
+}
+.our-story-card-animation-image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+.text-0{
+    color: #fff;
+    font-weight: 600;
+    font-size: 0.9em;
+}
+.text-1{
+    color: blue;
+    font-size: 0.9em;
+    font-weight: 400;
+}
+.downloadAndWatch .our-story-card-animation::after{
+    width: 3em;
+    margin-left: auto;
+    height: 3em;
+    outline: 2px solid #000;
+    outline-offset: -2px;
+    display: block;
+    background:url(download-icon.gif) center center no-repeat;
+    background-size: 100%;
+    content: "";
+    flex-grow: 0;
+    flex-shrink: 0;
+
+}
+.our-story-cards .our-story-card-text .our-story-card-title2{
+    color: #fff;
+    line-height: 1.1;
+    font-size: 4.124rem;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    /* letter-spacing: 2px; */
+    /* padding: 10px; */
+    text-decoration-color: white;
+}
+.our-story-cards .our-story-card-text .our-story-card-subtitle2{
+    color: #fff;
+    font-weight: 400;
+    font-size: 1.625rem;
+    text-decoration-color: white;
+    /* font-weight: bold; */
+}
+.our-story-card-img-container2{
+    flex-basis: 45%;
+
+}
+.our-story-card-animation-container2{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+.our-story-card-animation2{
+    width: 100%;
+    height: 100%;
+    max-width: 63%;
+    max-height: 47%;
+    position: absolute;
+    left: 38%;
+    top: 35%;
+    transform: translate(-50%,-50%);
+}
+.our-story-card-video2{
+    width: 100%;
+    height: 100%;
+
+}
+video{
+    display: inline;
+    vertical-align: baseline;
+    object-fit: contain;
+}
+.our-story-card-img2{
+    position: relative ;
+    z-index: 2;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    border: 0;
+}
